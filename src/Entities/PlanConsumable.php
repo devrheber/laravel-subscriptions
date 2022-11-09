@@ -3,7 +3,7 @@
 namespace Devrheber\LaravelSubscriptions\Entities;
 
 use Illuminate\Database\Eloquent\Model;
-use Sagitarius29\LaravelSubscriptions\PlanFeature as PlanFeatureBase;
+use Devrheber\LaravelSubscriptions\PlanFeature as PlanFeatureBase;
 
 class PlanConsumable extends PlanFeatureBase
 {

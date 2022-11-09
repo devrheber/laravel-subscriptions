@@ -3,8 +3,8 @@
 namespace Devrheber\LaravelSubscriptions\Entities;
 
 use Illuminate\Database\Eloquent\Builder;
-use Sagitarius29\LaravelSubscriptions\Contracts\GroupContract;
-use Sagitarius29\LaravelSubscriptions\Contracts\PlanContract;
+use Devrheber\LaravelSubscriptions\Contracts\GroupContract;
+use Devrheber\LaravelSubscriptions\Contracts\PlanContract;
 
 class Group implements GroupContract
 {

@@ -3,8 +3,8 @@
 namespace Devrheber\LaravelSubscriptions\Entities;
 
 use Illuminate\Database\Eloquent\Model;
-use Sagitarius29\LaravelSubscriptions\Contracts\PlanIntervalContract;
-use Sagitarius29\LaravelSubscriptions\Exceptions\IntervalErrorException;
+use Devrheber\LaravelSubscriptions\Contracts\PlanIntervalContract;
+use Devrheber\LaravelSubscriptions\Exceptions\IntervalErrorException;
 
 class PlanInterval extends Model implements PlanIntervalContract
 {

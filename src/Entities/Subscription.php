@@ -6,9 +6,9 @@ use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
-use Sagitarius29\LaravelSubscriptions\Contracts\PlanContract;
-use Sagitarius29\LaravelSubscriptions\Contracts\SubscriptionContact;
-use Sagitarius29\LaravelSubscriptions\Exceptions\SubscriptionErrorException;
+use Devrheber\LaravelSubscriptions\Contracts\PlanContract;
+use Devrheber\LaravelSubscriptions\Contracts\SubscriptionContact;
+use Devrheber\LaravelSubscriptions\Exceptions\SubscriptionErrorException;
 
 class Subscription extends Model implements SubscriptionContact
 {

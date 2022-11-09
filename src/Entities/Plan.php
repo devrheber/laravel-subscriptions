@@ -2,8 +2,8 @@
 
 namespace Devrheber\LaravelSubscriptions\Entities;
 
-use Sagitarius29\LaravelSubscriptions\Plan as PlanBase;
-use Sagitarius29\LaravelSubscriptions\Traits\HasSingleInterval;
+use Devrheber\LaravelSubscriptions\Plan as PlanBase;
+use Devrheber\LaravelSubscriptions\Traits\HasSingleInterval;
 
 class Plan extends PlanBase
 {

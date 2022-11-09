@@ -4,7 +4,7 @@ namespace Devrheber\LaravelSubscriptions\Traits;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\HasMany;
-use Sagitarius29\LaravelSubscriptions\PlanFeature;
+use Devrheber\LaravelSubscriptions\PlanFeature;
 
 trait HasFeatures
 {
