@@ -1,43 +1,43 @@
 {
-    "name": "sagitarius29/laravel-subscriptions",
+    "name": "devrheber/laravel-subscriptions",
     "description": "A simple package for subscriptions",
     "keywords": [
         "laravel",
-        "sagitarius29",
         "laravel-subscriptions",
         "subscription",
         "intervals",
         "plan",
         "features",
-        "recurring"
+        "recurring",
+        "devrheber"
     ],
-    "homepage": "https://github.com/sagitarius29/laravel-subscriptions",
+    "homepage": "https://github.com/devrheber/laravel-subscriptions",
     "license": "MIT",
     "type": "library",
     "authors": [
         {
-            "name": "Adolfo Cuadros",
-            "email": "ronnie.adolfo@gmail.com",
+            "name": "Heber Rodríguez Mendoza",
+            "email": "heber@hrodriguez.me",
             "role": "Developer"
         }
     ],
+    "minimum-stability": "dev",
     "require": {
-        "php": "^7.1",
-        "illuminate/support": "5.8.*"
+        "php": "^8.0"
     },
     "require-dev": {
-        "mockery/mockery": "^1.2",
+        "mockery/mockery": "^1.4",
         "orchestra/testbench": "3.8.*",
         "phpunit/phpunit": "^7.0"
     },
     "autoload": {
         "psr-4": {
-            "Sagitarius29\\LaravelSubscriptions\\": "src"
+            "Devrheber\\LaravelSubscriptions\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Sagitarius29\\LaravelSubscriptions\\Tests\\": "tests"
+            "Devrheber\\LaravelSubscriptions\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -50,10 +50,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Sagitarius29\\LaravelSubscriptions\\LaravelSubscriptionsServiceProvider"
+                "Devrheber\\LaravelSubscriptions\\LaravelSubscriptionsServiceProvider"
             ],
             "aliases": {
-                "LaravelSubscriptions": "Sagitarius29\\LaravelSubscriptions\\LaravelSubscriptionsFacade"
+                "LaravelSubscriptions": "Devrheber\\LaravelSubscriptions\\LaravelSubscriptionsFacade"
             }
         }
     }

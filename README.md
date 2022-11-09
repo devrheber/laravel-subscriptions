@@ -14,21 +14,21 @@ All ideas are welcome, please send your issue in: [Send your issues in here](htt
 
 You can install the package via composer:
 
-**This package work in laravel 5.8 or later because Carbon is updated to 2.0.**
+**This package work in laravel 7 or later because
 
 ```bash
-composer require sagitarius29/laravel-subscriptions
+composer require devrheber/laravel-subscriptions
 ```
 
 #### Register Service Provider
-Add `Sagitarius29\LaravelSubscriptions\LaravelSubscriptionsServiceProvider::class` to your file `config/app.php`
+Add `Devrheber\LaravelSubscriptions\LaravelSubscriptionsServiceProvider::class` to your file `config/app.php`
 
 ```php
 'providers' => [
     /**
     * Some Providers
     */
-    Sagitarius29\LaravelSubscriptions\LaravelSubscriptionsServiceProvider::class
+    Devrheber\LaravelSubscriptions\LaravelSubscriptionsServiceProvider::class
 ]
 ```
 
