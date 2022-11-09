@@ -1,6 +1,6 @@
 <?php
 
-namespace Sagitarius29\LaravelSubscriptions\Exceptions;
+namespace Devrheber\LaravelSubscriptions\Exceptions;
 
 class SubscriptionErrorException extends \Exception
 {

@@ -1,17 +1,17 @@
 <?php
 
-namespace Sagitarius29\LaravelSubscriptions\Traits;
+namespace Devrheber\LaravelSubscriptions\Traits;
 
 use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\MorphMany;
-use Sagitarius29\LaravelSubscriptions\Contracts\PlanContract;
-use Sagitarius29\LaravelSubscriptions\Contracts\PlanIntervalContract;
-use Sagitarius29\LaravelSubscriptions\Contracts\SubscriptionContact;
-use Sagitarius29\LaravelSubscriptions\Entities\PlanInterval;
-use Sagitarius29\LaravelSubscriptions\Entities\Subscription;
-use Sagitarius29\LaravelSubscriptions\Exceptions\SubscriptionErrorException;
-use Sagitarius29\LaravelSubscriptions\PlanFeature;
+use Devrheber\LaravelSubscriptions\Contracts\PlanContract;
+use Devrheber\LaravelSubscriptions\Contracts\PlanIntervalContract;
+use Devrheber\LaravelSubscriptions\Contracts\SubscriptionContact;
+use Devrheber\LaravelSubscriptions\Entities\PlanInterval;
+use Devrheber\LaravelSubscriptions\Entities\Subscription;
+use Devrheber\LaravelSubscriptions\Exceptions\SubscriptionErrorException;
+use Devrheber\LaravelSubscriptions\PlanFeature;
 
 trait HasSubscriptions
 {

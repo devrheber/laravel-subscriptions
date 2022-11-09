@@ -1,13 +1,13 @@
 <?php
 
-namespace Sagitarius29\LaravelSubscriptions\Tests;
+namespace Devrheber\LaravelSubscriptions\Tests;
 
 use Faker\Factory as FakerFactory;
 use Faker\Generator as FakerGenerator;
 use Illuminate\Database\Eloquent\Factory as EloquentFactory;
 use Orchestra\Testbench\TestCase as Testbench;
-use Sagitarius29\LaravelSubscriptions\LaravelSubscriptionsServiceProvider;
-use Sagitarius29\LaravelSubscriptions\Tests\Entities\User;
+use Devrheber\LaravelSubscriptions\LaravelSubscriptionsServiceProvider;
+use Devrheber\LaravelSubscriptions\Tests\Entities\User;
 
 class TestCase extends Testbench
 {

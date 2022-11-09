@@ -1,6 +1,6 @@
 <?php
 
-namespace Sagitarius29\LaravelSubscriptions\Contracts;
+namespace Devrheber\LaravelSubscriptions\Contracts;
 
 use Illuminate\Database\Eloquent\Model;
 

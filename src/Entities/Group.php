@@ -1,6 +1,6 @@
 <?php
 
-namespace Sagitarius29\LaravelSubscriptions\Entities;
+namespace Devrheber\LaravelSubscriptions\Entities;
 
 use Illuminate\Database\Eloquent\Builder;
 use Sagitarius29\LaravelSubscriptions\Contracts\GroupContract;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Sagitarius29\LaravelSubscriptions\Entities;
+namespace Devrheber\LaravelSubscriptions\Entities;
 
 use Sagitarius29\LaravelSubscriptions\Plan as PlanBase;
 use Sagitarius29\LaravelSubscriptions\Traits\HasSingleInterval;

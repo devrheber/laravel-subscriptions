@@ -1,12 +1,12 @@
 <?php
 
-namespace Sagitarius29\LaravelSubscriptions\Tests\Feature;
+namespace Devrheber\LaravelSubscriptions\Tests\Feature;
 
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Foundation\Testing\WithFaker;
-use Sagitarius29\LaravelSubscriptions\Entities\Group;
-use Sagitarius29\LaravelSubscriptions\Entities\Plan;
-use Sagitarius29\LaravelSubscriptions\Tests\TestCase;
+use Devrheber\LaravelSubscriptions\Entities\Group;
+use Devrheber\LaravelSubscriptions\Entities\Plan;
+use Devrheber\LaravelSubscriptions\Tests\TestCase;
 
 class GroupPlanTest extends TestCase
 {

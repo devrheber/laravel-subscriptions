@@ -1,6 +1,6 @@
 <?php
 
-namespace Sagitarius29\LaravelSubscriptions\Entities;
+namespace Devrheber\LaravelSubscriptions\Entities;
 
 use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Builder;

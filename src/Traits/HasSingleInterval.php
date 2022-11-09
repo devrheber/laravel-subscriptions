@@ -1,9 +1,9 @@
 <?php
 
-namespace Sagitarius29\LaravelSubscriptions\Traits;
+namespace Devrheber\LaravelSubscriptions\Traits;
 
 use Illuminate\Database\Eloquent\Model;
-use Sagitarius29\LaravelSubscriptions\Contracts\PlanIntervalContract;
+use Devrheber\LaravelSubscriptions\Contracts\PlanIntervalContract;
 
 trait HasSingleInterval
 {

@@ -1,17 +1,17 @@
 <?php
 
-namespace Sagitarius29\LaravelSubscriptions\Tests\Feature;
+namespace Devrheber\LaravelSubscriptions\Tests\Feature;
 
 use Carbon\Carbon;
 use Illuminate\Foundation\Testing\RefreshDatabase;
-use Sagitarius29\LaravelSubscriptions\Entities\Plan;
-use Sagitarius29\LaravelSubscriptions\Entities\PlanFeature;
-use Sagitarius29\LaravelSubscriptions\Entities\PlanInterval;
-use Sagitarius29\LaravelSubscriptions\Entities\Subscription;
-use Sagitarius29\LaravelSubscriptions\Exceptions\SubscriptionErrorException;
-use Sagitarius29\LaravelSubscriptions\Tests\Entities\PlanManyIntervals;
-use Sagitarius29\LaravelSubscriptions\Tests\Entities\User;
-use Sagitarius29\LaravelSubscriptions\Tests\TestCase;
+use Devrheber\LaravelSubscriptions\Entities\Plan;
+use Devrheber\LaravelSubscriptions\Entities\PlanFeature;
+use Devrheber\LaravelSubscriptions\Entities\PlanInterval;
+use Devrheber\LaravelSubscriptions\Entities\Subscription;
+use Devrheber\LaravelSubscriptions\Exceptions\SubscriptionErrorException;
+use Devrheber\LaravelSubscriptions\Tests\Entities\PlanManyIntervals;
+use Devrheber\LaravelSubscriptions\Tests\Entities\User;
+use Devrheber\LaravelSubscriptions\Tests\TestCase;
 
 class SubscriptionsTest extends TestCase
 {
