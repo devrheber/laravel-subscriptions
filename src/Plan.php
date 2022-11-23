@@ -4,11 +4,11 @@ namespace Devrheber\LaravelSubscriptions;
 
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
-use Sagitarius29\LaravelSubscriptions\Contracts\GroupContract;
-use Sagitarius29\LaravelSubscriptions\Contracts\PlanContract;
-use Sagitarius29\LaravelSubscriptions\Entities\Group;
-use Sagitarius29\LaravelSubscriptions\Exceptions\PlanErrorException;
-use Sagitarius29\LaravelSubscriptions\Traits\HasFeatures;
+use Devrheber\LaravelSubscriptions\Contracts\GroupContract;
+use Devrheber\LaravelSubscriptions\Contracts\PlanContract;
+use Devrheber\LaravelSubscriptions\Entities\Group;
+use Devrheber\LaravelSubscriptions\Exceptions\PlanErrorException;
+use Devrheber\LaravelSubscriptions\Traits\HasFeatures;
 
 abstract class Plan extends Model implements PlanContract
 {
